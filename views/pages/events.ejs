@@ -1,7 +1,13 @@
 <%- include('../partials/header') %>
 
-<h1>Upcoming Events</h1>
-<p>Check out what's happening soon!</p>
+<div class="hero">
+    <img src="/images/eventBanner.jpg" alt="Event Banner" class="hero-img">
+    <div class="hero-text">
+        <h1>Upcoming Events</h1>
+        <p>Check out what's happening soon!</p>
+    </div>
+</div>
+
 <div id="events">
     <% for (let i = 0; i < events.length; i++) { %> 
         <div class="event-card" onclick="toggleDescription(this)">

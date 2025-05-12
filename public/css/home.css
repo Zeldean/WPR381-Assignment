@@ -1,24 +1,4 @@
-.hero {
-  position: relative;
-  text-align: center;
-  color: white;
-}
 
-.hero-img {
-  width: 100%;
-  max-height: 300px;
-  object-fit: cover;
-  filter: brightness(60%);
-}
-
-.hero-text {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  color: #abf7f8;
-  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.6);
-}
 
 .home-events {
   margin-top: 3rem;
