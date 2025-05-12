@@ -10,7 +10,7 @@
 
 <div id="events">
     <% for (let i = 0; i < events.length; i++) { %> 
-        <div class="event-card" onclick="toggleDescription(this)">
+        <div class="event-card" onclick="toggleDescription(this)" style="width: 60vw">
             <div class="event-image-wrapper">
               <img src="/images/<%= events[i].image %>" alt="<%= events[i].title %>" class="event-image">
               <div class="event-title-overlay">

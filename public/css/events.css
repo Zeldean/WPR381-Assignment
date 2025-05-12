@@ -1,3 +1,9 @@
+#events {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
 .event-card {
   background-color: #203142;
   color: #6d9dd1;
@@ -5,8 +11,8 @@
   overflow: hidden;
   padding: 0;
   margin: 1rem auto;
-  width: 90%;
-  max-width: 700px;
+  /* width: 90%; */
+  /* max-width: 700px; */
   cursor: pointer;
   transition: box-shadow 0.3s ease;
 }
