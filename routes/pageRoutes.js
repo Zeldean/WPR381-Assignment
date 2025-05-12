@@ -15,7 +15,8 @@ router.get('/about', (req, res) => {
     res.render('pages/about', { cssFile: "about.css" })
 });
 
-router.get('/events', (req, res) => {
+router.get('/events', async (req, res) => {
+    const events = await em.getEvents();
     res.render('pages/events', { events: events, displayDate: em.displayDate, cssFile: "events.css" })
 });
 
