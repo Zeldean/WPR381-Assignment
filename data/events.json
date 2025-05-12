@@ -7,7 +7,7 @@
     "startTime": "13:15",
     "endTime": "16:00",
     "location": "Innovation Lab",
-    "image": "event-ai.jpg",
+    "image": "01.jpg",
     "description": "Explore how artificial intelligence is reshaping classrooms. We'll dive into adaptive learning systems and ethical AI practices in education."
   },
   {
@@ -18,7 +18,7 @@
     "startTime": "09:00",
     "endTime": "15:30",
     "location": "Room B204",
-    "image": "event-coding.jpg",
+    "image": "03.jpg",
     "description": "A week-long crash course in full-stack web development. Ideal for beginners and intermediate learners alike. Bring your own laptop!"
   },
   {
@@ -29,7 +29,7 @@
     "startTime": "17:00",
     "endTime": "19:00",
     "location": "Auditorium 1",
-    "image": "event-entrepreneur.jpg",
+    "image": "04.jpg",
     "description": "Join our panel of successful entrepreneurs and investors to learn about startup journeys, funding tips, and building sustainable business models."
   },
   {
@@ -40,7 +40,7 @@
     "startTime": "10:00",
     "endTime": "12:00",
     "location": "Wellness Centre",
-    "image": "event-mentalhealth.jpg",
+    "image": "04.jpg",
     "description": "Learn practical strategies to manage anxiety and perform better during exam periods. Includes a short mindfulness session."
   },
   {
@@ -51,7 +51,7 @@
     "startTime": "08:30",
     "endTime": "14:00",
     "location": "Campus Grounds",
-    "image": "event-openday.jpg",
+    "image": "02.jpg",
     "description": "Prospective students and parents are invited to tour our campus, meet faculty, and attend orientation sessions."
   }
 ]

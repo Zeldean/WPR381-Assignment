@@ -1,10 +1,23 @@
 // dummy Data
-const events = [
-    { id: 1, title: 'Coding Bootcamp', date: '2025-05-20', location: 'Online', image: '01.jpg' },
-    { id: 2, title: 'Hackathon 2025', date: '2025-06-15', location: 'Campus', image: '02.jpg' },
-    { id: 3, title: 'Tech Talks', date: '2025-07-10', location: 'Online', image: '03.jpg' },
-    { id: 4, title: 'AI Workshop', date: '2025-08-22', location: 'Campus', image: '04.jpg' },
-];
+const fs = require('fs').promises;
+const path = require('path');
+let events = []
+const eventsData = path.join(__dirname, "../data/events.json");
+
+fs.readFile(eventsData)
+.then( (data) => {
+    events = JSON.parse(data)
+    events = events.sort((a, b) => {
+        return new Date(b.startDate) - new Date(a.startDate);
+    });
+})
+.catch ( (err) => {
+    console.log(`${err}`);
+    events = []
+})
+
+
+
 
 // routes/pageRoutes.js
 
