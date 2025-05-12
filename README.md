@@ -13,3 +13,4 @@ Starter boilerplate for a Node.js + Express + EJS website.
 ## Contributors
 
 - Dean van Zyl (600367)
+- Reagile Motsepe (600665)
