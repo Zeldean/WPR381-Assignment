@@ -1,24 +1,30 @@
 <%- include('../partials/header') %>
 
-<h1>Welcome to the Community Portal</h1>
-<h3>The gateway to your Future</h3>
-<p>
-    Connecting people, sharing knowledge, and empowering learning opportunities.
-</p>
+<main>
+  <section class="hero">
+    <img src="/images/bookBanner.jpg" alt="Education Banner" class="hero-img">
+    <div class="hero-text">
+      <h1>Welcome to the Community Portal</h1>
+      <h3>The gateway to your future</h3>
+      <p>Connecting people, sharing knowledge, and empowering learning opportunities.</p>
+    </div>
+  </section>
 
-<h2>Upcoming Events</h2>
+  <section class="home-events">
+    <h2>Upcoming Events</h2>
 
-<div id="events">
-    <!-- Loop through the latest 3 events -->
-    <% for (let i = 0; i < Math.min(3, events.length); i++) { %> 
+    <div id="events">
+      <% for (let i = 0; i < Math.min(3, events.length); i++) { %> 
         <a href="/events">
-            <div class="event" id="event-<%= events[i].id %>">
-                <h3><%= events[i].title %></h3>
-                <p><strong>Date:</strong> <%= events[i].date %></p>
-                <p><strong>Location:</strong> <%= events[i].location %></p>
-            </div>
+          <div class="event" id="event-<%= events[i].id %>">
+            <h3><%= events[i].title %></h3>
+            <p><strong>Date:</strong> <%= events[i].date %></p>
+            <p><strong>Location:</strong> <%= events[i].location %></p>
+          </div>
         </a>
-    <% } %>
-</div>
+      <% } %>
+    </div>
+  </section>
+</main>
 
 <%- include('../partials/footer') %>
