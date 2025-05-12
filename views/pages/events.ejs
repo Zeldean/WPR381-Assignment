@@ -2,5 +2,17 @@
 
 <h1>Upcoming Events</h1>
 <p>Check out what's happening soon!</p>
+<% for (let i = 0; i < events.length); i++) { %> 
+    <div class="event-card" onclick="toggleDescription(this)">
+        <div class="event-summary">
+            <h3><%= events[i].title %></h3>
+            <p><strong>Date:</strong> <%= events[i].date %></p>
+            <p><strong>Location:</strong> <%= events[i].location %></p>
+        </div>
+        <div class="event-description">
+            <p><%= events[i].description %></p>
+        </div>
+    </div>
+<% } %>
 
 <%- include('../partials/footer') %>

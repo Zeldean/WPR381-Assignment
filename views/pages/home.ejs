@@ -1,14 +1,14 @@
 <%- include('../partials/header') %>
 
 <main>
-  <section class="hero">
+  <div class="hero">
     <img src="/images/bookBanner.jpg" alt="Education Banner" class="hero-img">
     <div class="hero-text">
       <h1>Welcome to the Community Portal</h1>
       <h3>The gateway to your future</h3>
       <p>Connecting people, sharing knowledge, and empowering learning opportunities.</p>
     </div>
-  </section>
+</div>
 
   <section class="home-events">
     <h2>Upcoming Events</h2>
@@ -16,10 +16,13 @@
     <div id="events">
       <% for (let i = 0; i < Math.min(3, events.length); i++) { %> 
         <a href="/events">
-          <div class="event" id="event-<%= events[i].id %>">
+          <div class="event" id="event-<%= events[i].id %>" style="width: 28vw">
+            <img src="/images/<%=events[i].image%>" alt="Background">
             <h3><%= events[i].title %></h3>
-            <p><strong>Date:</strong> <%= events[i].date %></p>
-            <p><strong>Location:</strong> <%= events[i].location %></p>
+            <div class="info">
+                <p><strong>Date:</strong> <%= events[i].date %></p>
+                <p><strong>Location:</strong> <%= events[i].location %></p>
+            </div>
           </div>
         </a>
       <% } %>
