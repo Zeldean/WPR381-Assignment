@@ -16,19 +16,19 @@ router.get('/', (req, res) => {
 });
 
 router.get('/about', (req, res) => {
-    res.render('pages/about')
+    res.render('pages/about', { cssFile: "about.css" })
 });
 
 router.get('/events', (req, res) => {
-    res.render('pages/events')
+    res.render('pages/events', { cssFile: "events.css" })
 });
 
 router.get('/contact', (req, res) => {
-    res.render('pages/contact')
+    res.render('pages/contact', { cssFile: "contact.css" })
 });
 
 router.get('/thankyou', (req, res) => {
-    res.render('pages/thankyou')
+    res.render('pages/thankyou', { cssFile: "thankyou.css" })
 });
 
 module.exports = router;
