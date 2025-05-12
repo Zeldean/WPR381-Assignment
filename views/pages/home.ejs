@@ -1,6 +1,24 @@
 <%- include('../partials/header') %>
 
 <h1>Welcome to the Community Portal</h1>
-<!-- Rest of content -->
+<h3>The gateway to your Future</h3>
+<p>
+    Connecting people, sharing knowledge, and empowering learning opportunities.
+</p>
+
+<h2>Upcoming Events</h2>
+
+<div id="events">
+    <!-- Loop through the latest 3 events -->
+    <% for (let i = 0; i < Math.min(3, events.length); i++) { %> 
+        <a href="/events">
+            <div class="event" id="event-<%= events[i].id %>">
+                <h3><%= events[i].title %></h3>
+                <p><strong>Date:</strong> <%= events[i].date %></p>
+                <p><strong>Location:</strong> <%= events[i].location %></p>
+            </div>
+        </a>
+    <% } %>
+</div>
 
 <%- include('../partials/footer') %>
