@@ -7,8 +7,8 @@
     "startTime": "13:15",
     "endTime": "16:00",
     "location": "Innovation Lab",
-    "image": "01.jpg",
-    "description": "Explore how artificial intelligence is reshaping classrooms. We'll dive into adaptive learning systems and ethical AI practices in education."
+    "image": "02.jpg",
+    "description": "This interactive workshop explores how artificial intelligence is transforming the educational landscape. Participants will engage in hands-on demonstrations of adaptive learning systems, AI tutors, and ethical debates around the role of automation in modern classrooms."
   },
   {
     "id": 2,
@@ -18,8 +18,8 @@
     "startTime": "09:00",
     "endTime": "15:30",
     "location": "Room B204",
-    "image": "03.jpg",
-    "description": "A week-long crash course in full-stack web development. Ideal for beginners and intermediate learners alike. Bring your own laptop!"
+    "image": "05.jpg",
+    "description": "A week-long crash course in full-stack web development for beginners and aspiring developers. Topics include HTML, CSS, JavaScript, Node.js, and basic database integration. Daily sessions are instructor-led with live coding exercises and project building."
   },
   {
     "id": 3,
@@ -29,8 +29,8 @@
     "startTime": "17:00",
     "endTime": "19:00",
     "location": "Auditorium 1",
-    "image": "04.jpg",
-    "description": "Join our panel of successful entrepreneurs and investors to learn about startup journeys, funding tips, and building sustainable business models."
+    "image": "08.jpg",
+    "description": "Join a panel of successful entrepreneurs, alumni, and startup investors as they share their journeys, challenges, and strategies for launching and scaling businesses. A Q&A session and informal networking opportunity will follow the discussion."
   },
   {
     "id": 4,
@@ -40,8 +40,8 @@
     "startTime": "10:00",
     "endTime": "12:00",
     "location": "Wellness Centre",
-    "image": "04.jpg",
-    "description": "Learn practical strategies to manage anxiety and perform better during exam periods. Includes a short mindfulness session."
+    "image": "03.jpg",
+    "description": "Designed for students preparing for final exams, this seminar offers practical tips on managing stress and maintaining mental well-being. Topics include breathing techniques, productivity routines, and guided mindfulness exercises with a certified mental health coach."
   },
   {
     "id": 5,
@@ -51,7 +51,7 @@
     "startTime": "08:30",
     "endTime": "14:00",
     "location": "Campus Grounds",
-    "image": "02.jpg",
-    "description": "Prospective students and parents are invited to tour our campus, meet faculty, and attend orientation sessions."
+    "image": "07.jpg",
+    "description": "Future students and their families are invited to explore our campus and learn more about our academic programs. The Open Day includes guided tours, department meet-and-greets, sample lectures, and an information session on student life and admissions."
   }
 ]

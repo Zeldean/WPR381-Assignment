@@ -1,0 +1,37 @@
+[
+  {
+    "id": 1,
+    "name": "Liam Moyo",
+    "email": "liam.moyo@example.com",
+    "message": "I’d love to know more about the upcoming coding workshops.",
+    "newsletter": "on"
+  },
+  {
+    "id": 2,
+    "name": "Anele Jacobs",
+    "email": "anele.jacobs@example.com",
+    "message": "How can I volunteer for the Open Day event?",
+    "newsletter": "off"
+  },
+  {
+    "id": 3,
+    "name": "Fatima Dlamini",
+    "email": "fatima.d@example.com",
+    "message": "The seminar on stress management was amazing!",
+    "newsletter": "on"
+  },
+  {
+    "id": 4,
+    "name": "Musa Ndlovu",
+    "email": "musa.ndlovu@example.com",
+    "message": "Please send me a schedule of all events for June.",
+    "newsletter": "on"
+  },
+  {
+    "id": 5,
+    "name": "Kayla Pieterse",
+    "email": "kayla.p@example.com",
+    "message": "Is there a way to get reminders for new events?",
+    "newsletter": "off"
+  }
+]
