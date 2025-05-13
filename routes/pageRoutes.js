@@ -12,8 +12,31 @@ router.get('/', async (req, res) => {
 });
 
 router.get('/about', (req, res) => {
-    res.render('pages/about', { cssFile: "about.css" })
+    const teamMembers = [
+  {
+    Name: "Dean Jacobus Andreas van Zyl",
+    Role: "Team Lead/Backend Developer",
+    Description: "Builds and maintains the server-side logic, databases, and APIs that power an application."
+  },
+  {
+    Name: "Shaun de Beer",
+    Role: "Frontend Developer",
+    Description: "Designs and implements the visual and interactive parts of a website or application that users interact with."
+  },
+  {
+    Name: "Reagile Motsepe",
+    Role: "Data Manager",
+    Description: "Oversees the collection, storage, and organization of data to ensure accuracy, accessibility, and security."
+  },
+  {
+    Name: "Antwone Theresa Vis",
+    Role: "Documentation Manager",
+    Description: "Creates, organizes, and maintains technical and user documentation to ensure clear communication and knowledge sharing."
+  }
+];
+    res.render('pages/about', {teamMembers , cssFile: "about.css" })
 });
+
 
 router.get('/events', async (req, res) => {
     const events = await em.getEvents();

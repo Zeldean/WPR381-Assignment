@@ -1,5 +1,38 @@
 <%- include('../partials/header') %>
 
-<h1>About Us</h1>
+<main>
+    <div class="container">
+        <div class="page-header">
+            <h1>Meet Our Team</h1>
+            <p>Our success is a result of the talented people who collaborate to provide outstanding experiences and solutions.</p>
+        </div>
+
+<div class="team-container" id="team-members">
+    <% if (Array.isArray(teamMembers)) { %>
+        <% teamMembers.forEach(member => { %>
+            <div class="team-member">
+                <div class="member-header">
+                    <h3 class="member-Name"><%= member.Name %></h3>
+                    <p class="member-Role"><%= member.Role %></p>
+                </div>
+                <div class="member-description">
+                    <p><%= member.Description %></p>
+                </div>
+            </div>
+        <% }); %>
+    <% } else { %>
+        <p>No team members to display</p>
+    <% } %>
+</div>
+
+
+        <div class="about-section">
+            <h2>Regarding Our Purpose</h2>
+            <p>We are an enthusiastic group of professionals committed to finding new and exciting ways to make your ideas a reality. We are able to tackle problems from many angles thanks to our varied skill sets and experiences.</p>
+            <p>We aim to provide products that have an impact by prioritizing quality, performance, and the user experience.</p>
+        </div>
+    </div>
+</main>
+<script src="/team/teamMembers.js"></script>
 
 <%- include('../partials/footer') %>
