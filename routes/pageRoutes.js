@@ -16,7 +16,7 @@ router.get('/about', (req, res) => {
   {
     Name: "Dean Jacobus Andreas van Zyl",
     Role: "Team Lead/Backend Developer",
-    Description: "Builds and maintains the server-side logic, databases, and APIs that power an application."
+    Description: "Builds and maintains the server-side logic, databases, and APIs that power an application. Oversight of the project as a whole, delegation of responsibilities, maintenance of an efficient workflow, team communication, and final submission assembly."
   },
   {
     Name: "Shaun de Beer",
@@ -46,6 +46,12 @@ router.get('/events', async (req, res) => {
 router.get('/contact', (req, res) => {
     res.render('pages/contact', { cssFile: "contact.css" })
 });
+
+router.post('/contact', (req, res) => {    
+    const { name, email, message }= req.body;
+    console.log(`${name}\n${email}\n${message}`);
+    res.render('pages/thankyou', { cssFile: "thankyou.css" })
+})
 
 router.get('/thankyou', (req, res) => {
     res.render('pages/thankyou', { cssFile: "thankyou.css" })
