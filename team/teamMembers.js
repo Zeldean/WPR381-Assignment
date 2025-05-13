@@ -1,4 +1,3 @@
-// Function to render team members with JSON-like formatting but without quotations
 function renderTeamMembers() {
   const teamContainer = document.getElementById('team-members');
   
