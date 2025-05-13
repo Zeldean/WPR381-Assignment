@@ -19,7 +19,7 @@ function displayDate(startDate, endDate, startTime, endTime) {
   let date = `${startDate}`;
   if (endDate && endDate !== startDate) date += ` to ${endDate}`;
   if (startTime) {
-    date += `\n${startTime}`;
+    date += `, ${startTime}`;
     if (endTime) date += ` to ${endTime}`;
   }
 
