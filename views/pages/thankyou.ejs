@@ -5,9 +5,16 @@
             <img src="images/checklist.png">
             <h2>Thank you!</h2>
             <p>Your details have successfully been submitted</p>
-            <button type="button">Ok</button>
+            <button id="close-btn" type="button">Close</button>
     </div>
 </div>
+
+  <script>
+    document.getElementById('close-btn')
+      .addEventListener('click', () => {
+        window.location.href = '/contact';
+      });
+  </script>
 
 <%- include('../partials/footer') %>
 <script>
