@@ -1,38 +1,38 @@
 <%- include('../partials/header') %>
 
 <main>
-    <div class="container">
-        <img src="images/about-as-service.avif" alt="AboutUs" class="About-Us">
-        <div class="page-header">
-            <h1>Meet Our Team</h1>
-            <p>Our success is a result of the talented people who collaborate to provide outstanding experiences and solutions.</p>
-        </div>
-
-<div class="team-container" id="team-members">
-    <% if (Array.isArray(teamMembers)) { %>
-        <% teamMembers.forEach(member => { %>
-            <div class="team-member">
-                <div class="member-header">
-                    <h3 class="member-Name"><%= member.Name %></h3>
-                    <p class="member-Role"><%= member.Role %></p>
-                </div>
-                <div class="member-description">
-                    <p><%= member.Description %></p>
-                </div>
-            </div>
-        <% }); %>
-    <% } else { %>
-        <p>No team members to display</p>
-    <% } %>
-</div>
-
-
-        <div class="about-section">
-            <h2>Regarding Our Purpose</h2>
-            <p>We are an enthusiastic group of professionals committed to finding new and exciting ways to make your ideas a reality. We are able to tackle problems from many angles thanks to our varied skill sets and experiences.</p>
-            <p>We aim to provide products that have an impact by prioritizing quality, performance, and the user experience.</p>
-        </div>
+<div class="container fade-in-down fade-delay-1">
+    <img src="images/about-as-service.avif" alt="AboutUs" class="About-Us">
+    <div class="page-header fade-in-up fade-delay-2">
+        <h1>Meet Our Team</h1>
+        <p>Our success is a result of the talented people who collaborate to provide outstanding experiences and solutions.</p>
     </div>
+
+    <div class="team-container" id="team-members">
+        <% if (Array.isArray(teamMembers)) { %>
+            <% teamMembers.forEach((member, index) => { %>
+                <div class="team-member fade-in fade-delay-<%= (index % 4) + 1 %>">
+                    <div class="member-header">
+                        <h3 class="member-Name"><%= member.Name %></h3>
+                        <p class="member-Role"><%= member.Role %></p>
+                    </div>
+                    <div class="member-description">
+                        <p><%= member.Description %></p>
+                    </div>
+                </div>
+            <% }); %>
+        <% } else { %>
+            <p>No team members to display</p>
+        <% } %>
+    </div>
+
+
+    <div class="about-section fade-in-up fade-delay-3">
+        <h2>Regarding Our Purpose</h2>
+        <p>We are an enthusiastic group of professionals committed to finding new and exciting ways to make your ideas a reality.</p>
+        <p>We aim to provide products that have an impact by prioritizing quality, performance, and the user experience.</p>
+    </div>
+</div>
 </main>
 <script src="/team/teamMembers.js"></script>
 
