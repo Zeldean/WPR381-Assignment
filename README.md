@@ -1,7 +1,7 @@
 # Community Portal Web Application
+[link](https://github.com/Zeldean/WPR381-Assignment.git)
 
 ## Overview
-[link](https://github.com/Zeldean/WPR381-Assignment.git)
 This project is a fully functional community portal website developed for the **WPR381** module. It is built using **Node.js**, **Express.js**, and **EJS**, and includes dynamic rendering, modular routing, a contact form with JSON storage, and a responsive, dark-themed design.
 
 The portal consists of five main pages: Home, About, Events, Contact, and Thank You. Data for events and contact submissions is handled through JSON files on the server. The project meets all functional and structural requirements set out in the assignment specification.
