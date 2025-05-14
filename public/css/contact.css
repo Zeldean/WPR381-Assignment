@@ -183,7 +183,7 @@
     color: rgba(171, 247, 248, 0.8);
     line-height: 1.5;
   }
-  
+
   @media (max-width: 768px) {
     .contact-form-wrapper {
       flex-direction: column;

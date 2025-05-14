@@ -1,7 +1,7 @@
 <%- include('../partials/header') %>
 
 <main>
-  <div class="hero">
+  <div class="hero fade-in-down fade-delay-1">
     <img src="/images/bookBanner.jpg" alt="Education Banner" class="hero-img">
     <div class="hero-text">
       <h1>Welcome to the <strong>Lumina Academy</strong> Portal</h1>
@@ -10,24 +10,24 @@
     </div>
   </div>
 
-  <section class="home-events">
+  <section class="home-events fade-in-up fade-delay-2">
     <h2>Upcoming Events</h2>
 
     <div id="events">
-        <% for (let i = 0; i < Math.min(3, events.length); i++) { %>
-            <% const date = displayDate(events[i].startDate, events[i].endDate, events[i].startTime, events[i].endTime); %>
-            
-            <a href="/events">
-            <div class="event" id="event-<%= events[i].id %>" style="width: 28vw">
-                <img src="/images/<%= events[i].image %>" alt="Background">
-                <h3><%= events[i].title %></h3>
-                <div class="info">
-                <p><strong>Date:</strong> <%= date  %></p>
-                <p><strong>Location:</strong> <%= events[i].location %></p>
-                </div>
+      <% for (let i = 0; i < Math.min(3, events.length); i++) { %>
+        <% const date = displayDate(events[i].startDate, events[i].endDate, events[i].startTime, events[i].endTime); %>
+        
+        <a href="/events">
+          <div class="event fade-in fade-delay-<%= (i % 4) + 1 %>" id="event-<%= events[i].id %>" style="width: 28vw">
+            <img src="/images/<%= events[i].image %>" alt="Background">
+            <h3><%= events[i].title %></h3>
+            <div class="info">
+              <p><strong>Date:</strong> <%= date %></p>
+              <p><strong>Location:</strong> <%= events[i].location %></p>
             </div>
-            </a>
-        <% } %>
+          </div>
+        </a>
+      <% } %>
     </div>
   </section>
 </main>

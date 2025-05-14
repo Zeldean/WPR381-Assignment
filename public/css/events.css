@@ -88,6 +88,12 @@
   opacity: 1;
   margin-top: 0.5rem;
 }
+.fade-in,
+.fade-in-up,
+.fade-in-down {
+  will-change: opacity, transform;
+  transition: opacity 0.3s ease;
+}
 
 @keyframes fadeIn {
   from { opacity: 0; transform: translateY(10px); }

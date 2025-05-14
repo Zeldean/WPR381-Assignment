@@ -35,5 +35,26 @@
 </div>
 </main>
 <script src="/team/teamMembers.js"></script>
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const animatedElements = document.querySelectorAll(".fade-in, .fade-in-up, .fade-in-down");
+
+    const observer = new IntersectionObserver(entries => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.style.animationPlayState = 'running';
+          observer.unobserve(entry.target); 
+        }
+      });
+    }, {
+      threshold: 0.1 
+    });
+
+    animatedElements.forEach(el => {
+      el.style.animationPlayState = 'paused'; 
+      observer.observe(el);
+    });
+  });
+</script>
 
 <%- include('../partials/footer') %>

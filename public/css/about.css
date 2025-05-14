@@ -261,6 +261,12 @@ footer {
     text-align: center;
     position: relative;
 }
+.fade-in,
+.fade-in-up,
+.fade-in-down {
+  will-change: opacity, transform;
+  transition: opacity 0.3s ease;
+}
 
 @media (max-width: 768px) {
     .page-header h1 {
