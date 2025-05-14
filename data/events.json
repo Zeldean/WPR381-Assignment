@@ -53,5 +53,38 @@
     "location": "Campus Grounds",
     "image": "07.jpg",
     "description": "Future students and their families are invited to explore our campus and learn more about our academic programs. The Open Day includes guided tours, department meet-and-greets, sample lectures, and an information session on student life and admissions."
+  },
+  {
+    "id": 6,
+    "title": "2024 Annual Research Expo",
+    "startDate": "2024-11-10",
+    "endDate": "2024-11-10",
+    "startTime": "10:00",
+    "endTime": "15:00",
+    "location": "Science Hall",
+    "image": "06.jpg",
+    "description": "A showcase of top research projects and academic innovations from students across departments. Included poster sessions, prototype demos, and a keynote by a visiting professor."
+  },
+  {
+    "id": 7,
+    "title": "Welcome Orientation 2024",
+    "startDate": "2024-01-15",
+    "endDate": "2024-01-17",
+    "startTime": "08:00",
+    "endTime": "12:00",
+    "location": "Main Auditorium",
+    "image": "01.jpg",
+    "description": "New students were welcomed with tours, faculty introductions, and sessions on academic support services. Included a student life expo and a closing lunch event."
+  },
+  {
+    "id": 8,
+    "title": "2024 Graduation Ceremony",
+    "startDate": "2024-12-05",
+    "endDate": "2024-12-05",
+    "startTime": "14:00",
+    "endTime": "17:00",
+    "location": "Campus Amphitheater",
+    "image": "04.jpg",
+    "description": "A formal graduation ceremony honoring the Class of 2024. Included speeches, awards, and degree conferrals, followed by a group photo and refreshments."
   }
 ]
