@@ -120,7 +120,7 @@ Other assigned members did not contribute and were not responsive during develop
 
 ## Peer Review
 ### Dean Jacobus Andreas van Zyl
-| Category        | Member 1's Review | Member 2's Review | Member 3's Review |
+| Category        | Member 1's Review | Reagile Motsepe | Member 3's Review |
 | --------------- | ----------------- | ----------------- | ----------------- |
 | Participation   |                   |         5          |                   |
 | Quality of Work |                   |         5         |                   |
@@ -129,31 +129,31 @@ Other assigned members did not contribute and were not responsive during develop
 | Problem-Solving |                   |         5          |                   |
 
 ### Reagile Motsepe
-| Category        | Member 1's Review | Member 2's Review | Member 3's Review |
+| Category        | Dean Jacobus Andreas van Zyl | Member 2's Review | Member 3's Review |
 | --------------- | ----------------- | ----------------- | ----------------- |
-| Participation   |                   |                   |                   |
-| Quality of Work |                   |                   |                   |
-| Responsibility  |                   |                   |                   |
-| Collaboration   |                   |                   |                   |
-| Problem-Solving |                   |                   |                   |
+| Participation   |        4           |                   |                   |
+| Quality of Work |        5           |                   |                   |
+| Responsibility  |        5           |                   |                   |
+| Collaboration   |        5           |                   |                   |
+| Problem-Solving |        4           |                   |                   |
 
 ### Shaun de Beer
-| Category        | Member 1's Review | Member 2's Review | Member 3's Review |
+| Category        | Dean Jacobus Andreas van Zyl | Reagile Motsepe | Member 3's Review |
 | --------------- | ----------------- | ----------------- | ----------------- |
-| Participation   |                   |         4          |                   |
-| Quality of Work |                   |         4          |                   |
-| Responsibility  |                   |         4          |                   |
-| Collaboration   |                   |         4          |                   |
-| Problem-Solving |                   |         3          |                   |
+| Participation   |         4          |         4          |                   |
+| Quality of Work |         4          |         4          |                   |
+| Responsibility  |         4          |         4          |                   |
+| Collaboration   |         4          |         4          |                   |
+| Problem-Solving |         4          |         3          |                   |
 
 ### Antwone Theresa Vis
-| Category        | Member 1's Review | Member 2's Review | Member 3's Review |
+| Category        | Dean Jacobus Andreas van Zyl | Reagile Motsepe | Member 3's Review |
 | --------------- | ----------------- | ----------------- | ----------------- |
-| Participation   |                   |         0          |                   |
-| Quality of Work |                   |         0          |                   |
-| Responsibility  |                   |         0          |                   |
-| Collaboration   |                   |         0          |                   |
-| Problem-Solving |                   |         0          |                   |
+| Participation   |          0         |         0          |                   |
+| Quality of Work |           0        |         0          |                   |
+| Responsibility  |          0         |         0          |                   |
+| Collaboration   |          0         |         0          |                   |
+| Problem-Solving |          0         |         0          |                   |
 
 Member 1 - Dean Jacobus Andreas van Zyl
 Member 2 - Reagile Motsepe
