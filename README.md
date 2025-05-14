@@ -122,11 +122,11 @@ Other assigned members did not contribute and were not responsive during develop
 ### Dean Jacobus Andreas van Zyl
 | Category        | Member 1's Review | Member 2's Review | Member 3's Review |
 | --------------- | ----------------- | ----------------- | ----------------- |
-| Participation   |                   |                   |                   |
-| Quality of Work |                   |                   |                   |
-| Responsibility  |                   |                   |                   |
-| Collaboration   |                   |                   |                   |
-| Problem-Solving |                   |                   |                   |
+| Participation   |                   |         5          |                   |
+| Quality of Work |                   |         5         |                   |
+| Responsibility  |                   |         5          |                   |
+| Collaboration   |                   |         5          |                   |
+| Problem-Solving |                   |         5          |                   |
 
 ### Reagile Motsepe
 | Category        | Member 1's Review | Member 2's Review | Member 3's Review |
@@ -140,17 +140,22 @@ Other assigned members did not contribute and were not responsive during develop
 ### Shaun de Beer
 | Category        | Member 1's Review | Member 2's Review | Member 3's Review |
 | --------------- | ----------------- | ----------------- | ----------------- |
-| Participation   |                   |                   |                   |
-| Quality of Work |                   |                   |                   |
-| Responsibility  |                   |                   |                   |
-| Collaboration   |                   |                   |                   |
-| Problem-Solving |                   |                   |                   |
+| Participation   |                   |         4          |                   |
+| Quality of Work |                   |         4          |                   |
+| Responsibility  |                   |         4          |                   |
+| Collaboration   |                   |         4          |                   |
+| Problem-Solving |                   |         3          |                   |
 
 ### Antwone Theresa Vis
 | Category        | Member 1's Review | Member 2's Review | Member 3's Review |
 | --------------- | ----------------- | ----------------- | ----------------- |
-| Participation   |                   |                   |                   |
-| Quality of Work |                   |                   |                   |
-| Responsibility  |                   |                   |                   |
-| Collaboration   |                   |                   |                   |
-| Problem-Solving |                   |                   |                   |
+| Participation   |                   |         0          |                   |
+| Quality of Work |                   |         0          |                   |
+| Responsibility  |                   |         0          |                   |
+| Collaboration   |                   |         0          |                   |
+| Problem-Solving |                   |         0          |                   |
+
+Member 1 - Dean Jacobus Andreas van Zyl
+Member 2 - Reagile Motsepe
+Member 3 - Shaun de Beer 
+Member 4 - Antwone Theresa Vis
