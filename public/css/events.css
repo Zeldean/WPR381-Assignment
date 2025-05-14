@@ -1,3 +1,8 @@
+.hero-text{
+  color: #F0EBD8;
+}
+
+
 #events {
     display: flex;
     flex-direction: column;
@@ -5,8 +10,8 @@
     justify-content: space-evenly;
 }
 .event-card {
-  background-color: #3E5C76;
-  color: #6d9dd1;
+  background-color: #0c1a3b;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
   border-radius: 8px;
   overflow: hidden;
   padding: 0;
@@ -19,6 +24,7 @@
 
 .event-card:hover {
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.6);
+  background-color: #193372;
 }
 
 .event-image-wrapper {
@@ -44,11 +50,10 @@
 .event-title-overlay {
   position: absolute;
   bottom: 0;
-  background: rgba(240, 235, 216, 0.6);
   width: 100%;
-  padding: 0.75rem;
+  padding: 0.5rem;
   text-align: center;
-  height: 20vh;
+  height: 3vh;
   border-bottom: 1px solid #F0EBD8;
 }
 
@@ -56,6 +61,7 @@
   margin: 0;
   color: #0D1321;
   font-size: 1.4rem;
+  color: #F0EBD8;
 }
 
 .event-summary {
@@ -65,7 +71,7 @@
 .event-summary p {
   margin: 0.4rem 0;
   text-align: left;
-  color: black;
+  color: #F0EBD8;
 }
 
 .event-description {
@@ -74,7 +80,7 @@
   overflow: hidden;
   opacity: 0;
   transition: max-height 0.4s ease, opacity 0.3s ease;
-  color: black;
+  color: #F0EBD8;
 }
 
 .event-card.expanded .event-description {

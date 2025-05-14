@@ -17,7 +17,6 @@ h1, h2, h3 {
 }
 
 a {
-    color: #007bff;
     text-decoration: none;
     transition: color 0.3s ease;
 }
@@ -109,8 +108,8 @@ main {
     left: 0;
     top: 0;
     font-size: 8rem;
-    opacity: 0.1;
-    color: #0D1321;
+    opacity: 0.5;
+    color: #0c1a3b;
     line-height: 1;
 }
 
@@ -120,8 +119,8 @@ main {
     right: 0;
     bottom: 0;
     font-size: 8rem;
-    opacity: 0.1;
-    color: #0D1321;
+    opacity: 0.5;
+    color: #0c1a3b;
     line-height: 1;
 }
 
