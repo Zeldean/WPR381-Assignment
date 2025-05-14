@@ -54,8 +54,8 @@ router.post('/contact', (req, res) => {
     res.render('pages/thankyou', { cssFile: "thankyou.css", data: data})
 })
 
-router.get('/thankyou', (req, res) => {
-    res.render('pages/thankyou', { cssFile: "thankyou.css" })
-});
+// router.get('/thankyou', (req, res) => {
+//     res.render('pages/thankyou', { cssFile: "thankyou.css"})
+// });
 
 module.exports = router;
