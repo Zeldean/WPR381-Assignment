@@ -1,0 +1,36 @@
+h2{
+    color: #3E5C76;
+}
+
+p{
+    color: #3E5C76;
+    text-align: center;
+}
+
+.tContainer{
+    height: 75vh;
+    padding-top: 50px;
+
+}
+
+.box{
+    width: 20%;
+    height: 20%;
+    background: #F0EBD8;
+    border-radius: 6px;
+    position: absolute;
+    top: 28rem;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(1.5); 
+    text-align: center;
+    padding: 2% 5% 5%;
+    color: black;
+    transition: transform 0.6s top 0.4s;
+}
+
+.box img{
+    width: 28%;
+    margin-top: -50%;
+    border-radius: 50%;
+
+}
