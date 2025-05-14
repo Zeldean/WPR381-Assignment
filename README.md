@@ -120,7 +120,7 @@ Other assigned members did not contribute and were not responsive during develop
 
 ## Peer Review
 ### Dean Jacobus Andreas van Zyl
-| Category        | Member 1's Review | Reagile Motsepe | Member 3's Review |
+| Category        | Member 1's Review | Reagile Motsepe | Shaun de Beer |
 | --------------- | ----------------- | ----------------- | ----------------- |
 | Participation   |                   |         5          |        5           |
 | Quality of Work |                   |         5         |         5          |
@@ -129,7 +129,7 @@ Other assigned members did not contribute and were not responsive during develop
 | Problem-Solving |                   |         5          |        5           |
 
 ### Reagile Motsepe
-| Category        | Dean Jacobus Andreas van Zyl | Member 2's Review | Member 3's Review |
+| Category        | Dean Jacobus Andreas van Zyl | Member 2's Review | Shaun de Beer |
 | --------------- | ----------------- | ----------------- | ----------------- |
 | Participation   |        4           |                   |        5           |
 | Quality of Work |        5           |                   |        5           |
@@ -147,15 +147,10 @@ Other assigned members did not contribute and were not responsive during develop
 | Problem-Solving |         4          |         3          |                   |
 
 ### Antwone Theresa Vis
-| Category        | Dean Jacobus Andreas van Zyl | Reagile Motsepe | Member 3's Review |
+| Category        | Dean Jacobus Andreas van Zyl | Reagile Motsepe | Shaun de Beer |
 | --------------- | ----------------- | ----------------- | ----------------- |
 | Participation   |          0         |         0          |       0            |
 | Quality of Work |           0        |         0          |       0            |
 | Responsibility  |          0         |         0          |       0            |
 | Collaboration   |          0         |         0          |       0            |
 | Problem-Solving |          0         |         0          |       0            |
-
-Member 1 - Dean Jacobus Andreas van Zyl
-Member 2 - Reagile Motsepe
-Member 3 - Shaun de Beer 
-Member 4 - Antwone Theresa Vis
