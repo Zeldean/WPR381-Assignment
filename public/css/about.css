@@ -5,30 +5,11 @@
 body {
     margin: 0;
     padding: 0;
-    background-color: #00152b;
-    color: #abf7f8;
     line-height: 1.6;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
     position: relative;
-}
-
-
-body::before {
-    content: '';
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-image: url('/images/about-as-service.avif');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    opacity: 0.3; 
-    z-index: -1;
-    filter: brightness(0.7); 
 }
 
 h1, h2, h3 {
@@ -52,9 +33,6 @@ nav a {
     font-weight: 500;
 }
 
-nav a:hover {
-    color: #abf7f8;
-}
 
 main {
     flex: 1;
@@ -78,6 +56,7 @@ main {
     margin-bottom: 3rem;
     position: relative;
     padding: 2rem 0;
+    color: #F0EBD8;
 }
 
 .page-header h1 {
@@ -86,7 +65,6 @@ main {
     background: linear-gradient(45deg, #abf7f8, #007bff);
     -webkit-background-clip: text;
     background-clip: text;
-    color: transparent;
     text-shadow: 0 2px 10px rgba(171, 247, 248, 0.2);
 }
 
@@ -106,7 +84,8 @@ main {
 }
 
 .team-member {
-    background-color: rgba(0, 21, 43, 0.85); /* More opaque to stand out from background */
+    background-color: #0c1a3b; 
+    color: #F0EBD8;
     border-radius: 10px;
     padding: 2rem;
     width: 100%;
@@ -115,13 +94,13 @@ main {
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     position: relative;
     overflow: hidden;
-    border-left: 4px solid #007bff;
+    border-left: 4px solid #F0EBD8;
 }
 
 .team-member:hover {
     transform: translateY(-5px);
     box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
-    background-color: rgba(0, 21, 43, 0.9);
+    background-color: #193372;
 }
 
 .team-member::before {
@@ -131,7 +110,7 @@ main {
     top: 0;
     font-size: 8rem;
     opacity: 0.1;
-    color: #abf7f8;
+    color: #0D1321;
     line-height: 1;
 }
 
@@ -142,7 +121,7 @@ main {
     bottom: 0;
     font-size: 8rem;
     opacity: 0.1;
-    color: #abf7f8;
+    color: #0D1321;
     line-height: 1;
 }
 
@@ -155,7 +134,6 @@ main {
 }
 
 .member-Name {
-    color: #abf7f8;
     font-size: 1.8rem;
     margin-bottom: 0.5rem;
     font-weight: 600;
@@ -169,10 +147,10 @@ main {
     border-radius: 20px;
     font-size: 0.9rem;
     font-weight: 500;
+
 }
 
 .member-description {
-    color: #abf7f8;
     font-size: 1rem;
     margin-top: 1rem;
     position: relative;
@@ -180,7 +158,6 @@ main {
 }
 
 .member-description p {
-    color: rgba(171, 247, 248, 0.9);
     line-height: 1.7;
 }
 
@@ -188,7 +165,7 @@ main {
     content: '>';
     position: absolute;
     left: 0;
-    color: #007bff;
+    color: #F0EBD8;
     font-weight: bold;
 }
 
@@ -218,7 +195,7 @@ main {
 .about-section {
     margin-top: 4rem;
     padding: 3rem;
-    background-color: rgba(0, 21, 43, 0.8);
+    background-color: #0c1a3b;
     border-radius: 10px;
     text-align: center;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
@@ -233,13 +210,13 @@ main {
     left: 0;
     right: 0;
     height: 4px;
-    background: linear-gradient(to right, #007bff, #abf7f8);
+    background: #F0EBD8;
 }
 
 .about-section h2 {
     font-size: 2.5rem;
     margin-bottom: 2rem;
-    color: #abf7f8;
+    color: #F0EBD8;
     position: relative;
     display: inline-block;
 }
@@ -259,7 +236,7 @@ main {
     max-width: 800px;
     margin: 0 auto 1.5rem;
     line-height: 1.8;
-    color: rgba(171, 247, 248, 0.9);
+    color: #F0EBD8;
 }
 
 footer {

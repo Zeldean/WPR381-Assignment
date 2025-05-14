@@ -2,6 +2,7 @@
 
 .home-events {
   margin-top: 3rem;
+  color: #F0EBD8;
 }
 
 #events {
@@ -14,12 +15,12 @@
 }
 
 .event {
-  background-color: #203142;
-  color: #6d9dd1;
+  background-color: #0c1a3b;
+  color: #F0EBD8;
   border-radius: 8px;
   /* padding: 10px; */
   transition: transform 0.2s, box-shadow 0.2s;
-
+  font-size: smaller;
   /* display: grid;
   grid-template-columns: 1fr 1fr; */
 
@@ -30,12 +31,14 @@
 }
 .event:hover {
   transform: scale(1.02);
+  background-color: #193372;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
 }
 
 .event h3 {
     margin: 0 0 10px;
-    color: #00b0f0;
+    font-size: large;
+    color: #F0EBD8;
     background-color: rgba(0, 0, 0, 0.671);
     z-index: 1; /* Ensure it appears above the image */
     position: absolute;
