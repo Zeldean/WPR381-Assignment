@@ -117,3 +117,40 @@ Other assigned members did not contribute and were not responsive during develop
 - All functional pages are included and fully working
 - Project meets all assignment criteria in structure, routing, and functionality
 - Peer evaluation submitted in `.zip`
+
+## Peer Review
+### Dean Jacobus Andreas van Zyl
+| Category        | Member 1's Review | Member 2's Review | Member 3's Review |
+| --------------- | ----------------- | ----------------- | ----------------- |
+| Participation   |                   |                   |                   |
+| Quality of Work |                   |                   |                   |
+| Responsibility  |                   |                   |                   |
+| Collaboration   |                   |                   |                   |
+| Problem-Solving |                   |                   |                   |
+
+### Reagile Motsepe
+| Category        | Member 1's Review | Member 2's Review | Member 3's Review |
+| --------------- | ----------------- | ----------------- | ----------------- |
+| Participation   |                   |                   |                   |
+| Quality of Work |                   |                   |                   |
+| Responsibility  |                   |                   |                   |
+| Collaboration   |                   |                   |                   |
+| Problem-Solving |                   |                   |                   |
+
+### Shaun de Beer
+| Category        | Member 1's Review | Member 2's Review | Member 3's Review |
+| --------------- | ----------------- | ----------------- | ----------------- |
+| Participation   |                   |                   |                   |
+| Quality of Work |                   |                   |                   |
+| Responsibility  |                   |                   |                   |
+| Collaboration   |                   |                   |                   |
+| Problem-Solving |                   |                   |                   |
+
+### Antwone Theresa Vis
+| Category        | Member 1's Review | Member 2's Review | Member 3's Review |
+| --------------- | ----------------- | ----------------- | ----------------- |
+| Participation   |                   |                   |                   |
+| Quality of Work |                   |                   |                   |
+| Responsibility  |                   |                   |                   |
+| Collaboration   |                   |                   |                   |
+| Problem-Solving |                   |                   |                   |
