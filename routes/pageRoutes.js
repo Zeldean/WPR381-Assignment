@@ -3,6 +3,7 @@
 const express = require('express');
 const router = express.Router();
 const em = require('../utils/eventManager.js')
+const cm = require('../utils/contactManager.js');
 
 
 
@@ -48,9 +49,9 @@ router.get('/contact', (req, res) => {
 });
 
 router.post('/contact', (req, res) => {    
-    const { name, email, message }= req.body;
-    console.log(`${name}\n${email}\n${message}`);
-    res.render('pages/thankyou', { cssFile: "thankyou.css" })
+    const data = req.body;
+	cm.setContact(data);
+    res.render('pages/thankyou', { cssFile: "thankyou.css", data: data})
 })
 
 router.get('/thankyou', (req, res) => {
